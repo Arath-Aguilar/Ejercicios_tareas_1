@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int a,c;
+    printf("CUAL ES TU EDAD?: ");
+    scanf("%d",&a);
+    if(a>10){
+    if(a<60){
+printf("el precio del boleto es: 75 burro dolares");
+}
+}
+if(a<10){
+    c=75*.60;
+    printf("el precio del boleto con descuento es de: $ %d",c);
+}
+if(a>60){
+   c=75*.55;
+    printf("el precio del boleto con descuento es de: $ %d",c);
+   }
+}
